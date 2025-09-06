@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -3348,29 +3353,29 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
   background-color: #fff;
 }
 
-.btn-link, .copy-button, .btn-circle {
+.btn-link, .btn-circle, .copy-button {
   font-weight: 400;
   color: #337ab7;
   border-radius: 0;
 }
 
-.btn-link, .copy-button, .btn-circle, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+.btn-link, .btn-circle, .copy-button, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.btn-link, .copy-button, .btn-circle, .btn-link:active, .btn-link:focus, .btn-link:hover {
+.btn-link, .btn-circle, .copy-button, .btn-link:active, .btn-link:focus, .btn-link:hover {
   border-color: transparent;
 }
 
-.btn-link:focus, .copy-button:focus, .btn-circle:focus, .btn-link:hover, .copy-button:hover, .btn-circle:hover {
+.btn-link:focus, .btn-circle:focus, .copy-button:focus, .btn-link:hover, .btn-circle:hover, .copy-button:hover {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
 }
 
-.btn-link[disabled]:focus, [disabled].copy-button:focus, [disabled].btn-circle:focus, .btn-link[disabled]:hover, [disabled].copy-button:hover, [disabled].btn-circle:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .copy-button:focus, fieldset[disabled] .btn-circle:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .copy-button:hover, fieldset[disabled] .btn-circle:hover {
+.btn-link[disabled]:focus, [disabled].btn-circle:focus, [disabled].copy-button:focus, .btn-link[disabled]:hover, [disabled].btn-circle:hover, [disabled].copy-button:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-circle:focus, fieldset[disabled] .copy-button:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-circle:hover, fieldset[disabled] .copy-button:hover {
   color: #777;
   text-decoration: none;
 }
@@ -3691,7 +3696,7 @@ tbody.collapse.in {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-.btn-group.open .dropdown-toggle.btn-link, .btn-group.open .dropdown-toggle.copy-button, .btn-group.open .dropdown-toggle.btn-circle {
+.btn-group.open .dropdown-toggle.btn-link, .btn-group.open .dropdown-toggle.btn-circle, .btn-group.open .dropdown-toggle.copy-button {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -4553,15 +4558,15 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
   color: #333;
 }
 
-.navbar-default .btn-link, .navbar-default .copy-button, .navbar-default .btn-circle {
+.navbar-default .btn-link, .navbar-default .btn-circle, .navbar-default .copy-button {
   color: #777;
 }
 
-.navbar-default .btn-link:focus, .navbar-default .copy-button:focus, .navbar-default .btn-circle:focus, .navbar-default .btn-link:hover, .navbar-default .copy-button:hover, .navbar-default .btn-circle:hover {
+.navbar-default .btn-link:focus, .navbar-default .btn-circle:focus, .navbar-default .copy-button:focus, .navbar-default .btn-link:hover, .navbar-default .btn-circle:hover, .navbar-default .copy-button:hover {
   color: #333;
 }
 
-.navbar-default .btn-link[disabled]:focus, .navbar-default [disabled].copy-button:focus, .navbar-default [disabled].btn-circle:focus, .navbar-default .btn-link[disabled]:hover, .navbar-default [disabled].copy-button:hover, .navbar-default [disabled].btn-circle:hover, fieldset[disabled] .navbar-default .btn-link:focus, fieldset[disabled] .navbar-default .copy-button:focus, fieldset[disabled] .navbar-default .btn-circle:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .copy-button:hover, fieldset[disabled] .navbar-default .btn-circle:hover {
+.navbar-default .btn-link[disabled]:focus, .navbar-default [disabled].btn-circle:focus, .navbar-default [disabled].copy-button:focus, .navbar-default .btn-link[disabled]:hover, .navbar-default [disabled].btn-circle:hover, .navbar-default [disabled].copy-button:hover, fieldset[disabled] .navbar-default .btn-link:focus, fieldset[disabled] .navbar-default .btn-circle:focus, fieldset[disabled] .navbar-default .copy-button:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-circle:hover, fieldset[disabled] .navbar-default .copy-button:hover {
   color: #ccc;
 }
 
@@ -4654,15 +4659,15 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
   color: #fff;
 }
 
-.navbar-inverse .btn-link, .navbar-inverse .copy-button, .navbar-inverse .btn-circle {
+.navbar-inverse .btn-link, .navbar-inverse .btn-circle, .navbar-inverse .copy-button {
   color: #9d9d9d;
 }
 
-.navbar-inverse .btn-link:focus, .navbar-inverse .copy-button:focus, .navbar-inverse .btn-circle:focus, .navbar-inverse .btn-link:hover, .navbar-inverse .copy-button:hover, .navbar-inverse .btn-circle:hover {
+.navbar-inverse .btn-link:focus, .navbar-inverse .btn-circle:focus, .navbar-inverse .copy-button:focus, .navbar-inverse .btn-link:hover, .navbar-inverse .btn-circle:hover, .navbar-inverse .copy-button:hover {
   color: #fff;
 }
 
-.navbar-inverse .btn-link[disabled]:focus, .navbar-inverse [disabled].copy-button:focus, .navbar-inverse [disabled].btn-circle:focus, .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse [disabled].copy-button:hover, .navbar-inverse [disabled].btn-circle:hover, fieldset[disabled] .navbar-inverse .btn-link:focus, fieldset[disabled] .navbar-inverse .copy-button:focus, fieldset[disabled] .navbar-inverse .btn-circle:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .copy-button:hover, fieldset[disabled] .navbar-inverse .btn-circle:hover {
+.navbar-inverse .btn-link[disabled]:focus, .navbar-inverse [disabled].btn-circle:focus, .navbar-inverse [disabled].copy-button:focus, .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse [disabled].btn-circle:hover, .navbar-inverse [disabled].copy-button:hover, fieldset[disabled] .navbar-inverse .btn-link:focus, fieldset[disabled] .navbar-inverse .btn-circle:focus, fieldset[disabled] .navbar-inverse .copy-button:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-circle:hover, fieldset[disabled] .navbar-inverse .copy-button:hover {
   color: #444;
 }
 
@@ -6701,11 +6706,6 @@ button.close {
     display: none !important;
   }
 }
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 body {
   width: 100%;
   height: 100%;
